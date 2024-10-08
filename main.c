@@ -2,9 +2,9 @@
 
 int main(void) {
     int nvoti;
-    float media, somma, voto;
+    float media, somma=0, voto;
     while (voto!=0) {
-        printf("digita i voti:");
+        printf("digita il voto (premi '0' per terminare il programma): ");
         scanf("%f", &voto);
         somma= somma+voto;
         nvoti++;
